@@ -2,8 +2,9 @@
 # В исходном списке минимум 2 элемента.
 
 def modification(lst):
-    lst.insert(0, lst.pop())
-    lst.append(lst.pop(1))
+    # lst.insert(0, lst.pop())
+    # lst.append(lst.pop(1))
+    lst[0], lst[-1] = lst[-1], lst[0]  # Через групповое присваивание
     return lst
 
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ
