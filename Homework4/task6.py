@@ -4,6 +4,11 @@
 # (1, 2, 3, 4, 5, 6, 7, 8, 9, 0)  => "(123) 456-7890"
 
 def create_phone_number(num_tuple):
+    '''
+    функция принимает кортеж num_tuple из 10 цифр num_tuple, и возвращает строку этих чисел в виде номера телефона
+    :param num_tuple: входящий кортеж
+    :return: строка в виде номера телефона
+    '''
     # str_phone = f'({num_tuple[0]}{num_tuple[1]}{num_tuple[2]}) ' \
     # f'{num_tuple[3]}{num_tuple[4]}{num_tuple[5]}-' \
     # f'{num_tuple[6]}{num_tuple[7]}{num_tuple[8]}{num_tuple[9]}'

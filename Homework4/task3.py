@@ -7,6 +7,11 @@
 # 4 --> 4
 
 def sum_digits(num):
+    '''
+    функципринимает положительное число и возвращает сумму цифр
+    :param num: положительное число
+    :return: сумма цифр
+    '''
     our_sum = 0
     symbols = str(num)
     for i in symbols:
